@@ -1,0 +1,37 @@
+.main-data__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 75px;
+}
+
+.main-data__item {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.0294384);
+  border-radius: 5px;
+}
+
+.info {
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-bottom: 48px;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 26px;
+  color: #111517;
+  margin-bottom: 16px;
+}
+
+.text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #111517;
+}
+
+.text+.text {
+  margin-top: 8px;
+}
